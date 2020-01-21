@@ -46,7 +46,7 @@ def sendmail():
 	PASSWORD = ""
 
 	FROM = MAIL_ADDRESS # YOUR MAIL ADDRESS
-	TO = MAIL_ADDRESS # you can use a LIST type or STRING type)
+	TO = MAIL_ADDRESS # you can use a LIST type or STRING type
 
 
 	server = smtplib.SMTP(SMTP_HOST,SMTP_PORT)	
